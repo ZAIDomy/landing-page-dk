@@ -1,0 +1,29 @@
+body {
+  background-color: #333;
+  color: #BFB6AA;
+}
+
+.navbar {
+  border-bottom: #594839 3px solid;
+  opacity: .9;
+}
+
+#home-section {
+  background: url('../img/bg.jpg') no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+.home-inner {
+  padding-top: 200px;
+}
